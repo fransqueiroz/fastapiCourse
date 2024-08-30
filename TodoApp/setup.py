@@ -9,6 +9,8 @@ setup(
         "fastapi==0.89.1",
         "uvicorn==0.20.0",
         "SQLAlchemy==2.0.25",
+        "bcrypt==4.0.1",
+        "passlib==1.7.4",
     ],
     extras_require={
         "dev": ["pytest==8.0.0", "httpx==0.26.0", "flake8==7.0.0", "black==24.2.0"]
